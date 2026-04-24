@@ -1,0 +1,59 @@
+# Mathlib4 source (cloned separately)
+mathlib4/
+
+# Independent repos
+meetings/
+hf-dataset/
+
+# Runtime state
+results/*.pid
+*.pid
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+!paper/figures/*.pdf
+
+# minted cache
+_minted/
+
+# Backups
+sections_backup/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated output
+src/output/
+output/
+
+# Large data files (keep locally, exclude from git/Overleaf)
+data/mechanisms.ndjson
+data/jixia_decls/
+jixia/
+
+# HuggingFace cache
+.cache/
+
+# Node / docs build
+node_modules/
+.next/
+docs/out/
+
+# OS
+.DS_Store
+.vscode/
+paper/main.pdf
+data/release/
